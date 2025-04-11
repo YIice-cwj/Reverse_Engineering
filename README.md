@@ -7,6 +7,7 @@
 - **工具**：使用 Ghidra、Binary Ninja、IDA Pro 等工具进行逆向分析。
 - **目标**：分析二进制文件、破解加密算法、理解程序逻辑。
 - **示例项目**：包含一些简单的二进制文件和练习。
+<<<<<<< HEAD
 
 ### **Reverse_Engineering 文件夹结构**
 
@@ -55,3 +56,5 @@ Reverse_Engineering/
 │   └── CMakeLists.txt      # CMake 配置文件
 ├── README.md               # 项目说明
 └── .gitignore              # Git 忽略文件
+=======
+>>>>>>> 0491152bf600fabc20bca364dcfe1482bfe63f15
