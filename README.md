@@ -11,14 +11,7 @@
 ### **Reverse_Engineering 文件夹结构**
 
 
-
 Reverse_Engineering/
-├── Documentation/          # 文档和参考资料
-│   ├── Tutorials/          # 逆向工程教程
-│   ├── Books/              # 逆向工程相关书籍
-│   ├── Papers/             # 研究论文
-│   ├── Blog_Articles/      # 博客文章和在线资源
-│   └── Cheat_Sheets/       # 速查表和参考卡片
 ├── Projects/               # 逆向工程项目
 │   ├── Project_1/          # 项目 1
 │   │   ├── Binary/         # 二进制文件
@@ -47,7 +40,18 @@ Reverse_Engineering/
 │   ├── Exploits/           # 漏洞利用
 │   ├── POC/                # 漏洞概念验证
 │   └── Writeups/           # 漏洞分析报告
-└── Resources/              # 其他资源
-    ├── Databases/          # 逆向工程数据库
-    ├── Dictionaries/       # 逆向工程词典
-    └── Tools_Configs/      # 工具配置文件
+├── Resources/              # 其他资源
+│   ├── Databases/          # 逆向工程数据库
+│   ├── Dictionaries/       # 逆向工程词典
+│   └── Tools_Configs/      # 工具配置文件
+├── C_Cpp_Testing/          # C/C++ 测试文件
+│   ├── src/                # 源代码
+│   ├── include/            # 头文件
+│   ├── lib/                # 第三方库
+│   ├── build/              # 构建输出
+│   ├── tests/              # 测试代码
+│   ├── docs/               # 文档
+│   ├── scripts/            # 自动化脚本
+│   └── CMakeLists.txt      # CMake 配置文件
+├── README.md               # 项目说明
+└── .gitignore              # Git 忽略文件
