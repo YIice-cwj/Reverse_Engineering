@@ -1,23 +1,18 @@
+# Reverse Engineering
+
+## 项目简介
+这是一个关于逆向工程的项目，旨在学习和实践逆向工程的基本原理和工具。
+
+## 项目内容
+- **工具**：使用 Ghidra、Binary Ninja、IDA Pro 等工具进行逆向分析。
+- **目标**：分析二进制文件、破解加密算法、理解程序逻辑。
+- **示例项目**：包含一些简单的二进制文件和练习。
+
 ### **Reverse_Engineering 文件夹结构**
 
 
 
 Reverse_Engineering/
-├── Tools/                  # 逆向工程工具
-│   ├── IDA_Pro/            # IDA Pro 相关文件和插件
-│   ├── Ghidra/             # Ghidra 相关文件和脚本
-│   ├── Binary_Ninja/       # Binary Ninja 相关文件
-│   ├── OllyDbg/            # OllyDbg 调试器
-│   ├── x64dbg/             # x64dbg 调试器
-│   ├── Radare2/            # Radare2 工具集
-│   ├── Cutter/             # Cutter（Radare2 的 GUI）
-│   ├── Hopper/             # Hopper Disassembler
-│   ├── PE_Bear/            # PE_Bear 用于分析 PE 文件
-│   ├── Dependency_Walker/  # 用于分析 DLL 依赖
-│   ├── WinDbg/             # Windows 调试工具
-│   ├── Reko/               # Reko 反汇编器
-│   ├── Scylla/             # 用于 dump 进程
-│   └── Custom_Scripts/     # 自定义脚本和插件
 ├── Documentation/          # 文档和参考资料
 │   ├── Tutorials/          # 逆向工程教程
 │   ├── Books/              # 逆向工程相关书籍
